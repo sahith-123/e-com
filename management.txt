@@ -1,0 +1,36 @@
+Product Management Endpoints
+GET /products: Retrieve a list of all products
+
+GET /products/:id: Retrieve details of a specific product
+
+POST /products: Create a new product
+
+PUT /products/:id: Update an existing product
+
+DELETE /products/:id: Delete a specific product
+
+User Authentication Endpoints
+POST /users/register: Register a new user
+
+POST /users/login: Authenticate a user
+
+POST /users/logout: Log out a user
+
+GET /users/profile: Retrieve the authenticated user's profile
+
+PUT /users/profile: Update the authenticated user's profile
+
+POST /users/reset-password: Initiate password reset process
+
+Order Processing Endpoints
+GET /orders: Retrieve a list of all orders (admin only)
+
+GET /orders/:id: Retrieve details of a specific order
+
+POST /orders: Create a new order
+
+PUT /orders/:id: Update an existing order (e.g., change status)
+
+DELETE /orders/:id: Delete a specific order (admin only)
+
+GET /users/:userId/orders: Retrieve orders for a specific user
